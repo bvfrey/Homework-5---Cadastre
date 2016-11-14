@@ -1,0 +1,174 @@
+@font-face {
+    font-family: 'helvetica_neueregular';
+    src: url('../fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneue-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    background-image: url("../img/background2.jpg");
+    background-size: 1215px auto;
+    background-repeat: no-repeat;
+    background-position: center top;
+    font-family: "helvetica_neueregular", sans-serif;
+}
+.wrapper {
+    margin: auto;
+    width: 1215px;
+    height: 1064px;
+}
+
+/************************************************/
+/* HEADER */
+div.header {
+    margin: auto;
+    width: 100%;
+}
+div.menu {
+    /*margin: auto;*/
+    width: 100%;
+    height: 37px;
+    background-image: url("../img/topbluelayer.jpg");
+    font-size: 15px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float:right;
+}
+.style1 {
+    float:right;
+    /*margin: 5px 11px;*/
+    /*position: relative;*/
+    list-style:none;
+    /*padding: 0;*/
+}
+.style1 a{
+    display:block;
+    color:#66ccff;
+    text-decoration: none;
+    /*margin: 10px;*/
+    padding: 10px 10px 12px 10px;
+
+}
+.style1 a:hover{
+    /*text-decoration: none;*/
+    color:#fff;
+    background-color: #6699cc;
+    /*margin: 0;*/
+    /*padding: 10px 10px 10px 10px;*/
+}
+.styleline {
+    float:right;
+    margin: 3px 11px;
+    display:block;
+}
+.styleflag {
+    float:right;
+    margin: 7px 11px;
+    display:block;
+}
+.style3 {
+    float:right;
+    padding: 10px 11px 0 11px;
+    display:block;
+    color: #fff;
+    text-decoration: none;
+    list-style:none;
+}
+.style4 {
+    float:right;
+    margin-right: 20px;
+    padding: 10px 11px 10px 11px;
+    display:block;
+    color: white;
+    text-decoration: none;
+    list-style:none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #66ccff #6699cc #3399cc #6699cc;
+    background: linear-gradient(#66ccff, #3366cc);
+}
+.style3 a{
+    color:white;
+    text-decoration: none;
+}
+.style4 a{
+    color:white;
+}
+/************************************************/
+/* FORM */
+.main_form {
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 562px;
+    text-align: center;;
+    font-size: 14px;
+}
+.part_1 {
+    height: 42px;
+    margin: 213px auto 0 auto;
+    padding-top: 20px;
+    font-size: 24px;
+}
+.part_2 {
+    height: 542px;
+    margin: 2px auto 0 auto;
+    padding-top: 3px;
+}
+.fb_button {
+    padding-top: 33px;
+}
+.line_2 {
+    padding-top: 27px;
+    margin-bottom: 26px;
+    /*opacity: 0.5;*/
+}
+.fields {
+    display: block;
+    height: 31px;
+    width: 274px;
+    margin: 0 auto 17px auto;
+    padding-left: 10px;
+    background-color: #000000;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #333333;
+    color: #cccccc;
+}
+.fields:hover {
+    background-color: #336699;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #6699cc;
+    color: #cccccc;
+    box-shadow: 0px 0px 5px 3px rgba(51,153,153,1);
+}
+.checkbox {
+    font-size: 15px;
+    color: #cccccc;
+    text-align: left;
+    margin-left: 135px;
+    margin-bottom: 19px;
+}
+.submit {
+    display: block;
+    height: 36px;
+    width: 151px;
+    margin: 0 auto 17px auto;
+    /*padding-left: 10px;*/
+    background-color: #000000;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #3399cc;
+    border-top: 1px solid #66ccff;
+    color: #fff;
+    background: linear-gradient(#66ccff, #3366cc);
+    border-radius: 2px;
+}
+.form_footer {
+    text-align: center;
+    font-size: 11px;
+}
