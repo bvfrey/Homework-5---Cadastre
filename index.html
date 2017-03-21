@@ -11,22 +11,21 @@
     <div class="wrapper">
             <div class="menu">
                 <ul>
-                    <li class="style4">Ola! <a href="#">Entrar</a> ou <a href="#">Cadastre-se</a></li>
-                    <li class="style3"><a href="#">Minhas Ofertas</a></li>
-                    <li class="styleflag"><img src="img/flag3.png" alt="" /></li>
-                    <li class="styleline"><img src="img/blueline.jpg" alt="" /></li>
-                    <li class="style1"><a href="#">Ajuda</a></li>
-                    <li class="style1"><a href="#">Contato</a></li>
-                    <li class="style1"><a href="#">Forum</a></li>
-                    <li class="style1"><a href="#">Vender</a></li>
-                    <li class="style1"><a href="#">Meu YouBike</a></li>
+                    <li class="style_1"><a href="#">Meu YouBike</a></li>
+                    <li class="style_1"><a href="#">Vender</a></li>
+                    <li class="style_1"><a href="#">Forum</a></li>
+                    <li class="style_1"><a href="#">Contato</a></li>
+                    <li class="style_1"><a href="#">Ajuda</a></li>
+                    <li class="style_line"><img src="img/blueline.jpg" alt="" /></li>
+                    <li class="style_flag"><img src="img/flag3.png" alt="" /></li>
+                    <li class="style_3"><a href="#">Minhas Ofertas</a></li>
+                    <li class="style_4">Ola! <a href="#">Entrar</a> ou <a href="#">Cadastre-se</a></li>
                 </ul>
             </div> <!-- menu -->
             <div class="main_form part_1">
                 <p>
                     Cadastre-se
                 </p>
-
             </div>
             <div class="main_form part_2 ">
                 <div class="fb_button">
@@ -37,13 +36,15 @@
                 </div>
 
                 <form  action="/">
-                    <input class="fields" type="text" name="first_name" value="First Name" id="first_name">
-                    <input class="fields" type="text" name="last_name" value="Last Name" id="last_name">
-                    <input class="fields" type="text" name="e_mail" value="Email Address" id="e_mail">
-                    <input class="fields" type="text" name="password" value="Choose Password" id="password">
-                    <input class="fields" type="text" name="password_conf" value="Password Confirm" id="password_conf">
+                    <input class="fields" type="text" name="first_name" placeholder="First Name" id="first_name">
+                    <input class="fields" type="text" name="last_name" placeholder="Last Name" id="last_name">
+                    <input class="fields" type="mail" name="e_mail" placeholder="Email Address" id="e_mail">
+                    <input class="fields" type="password" name="password" placeholder="Choose Password" id="password">
+                    <input class="fields" type="password" name="password_conf" placeholder="Password Confirm" id="password_conf">
                     <div class="checkbox">
-                        <input type="checkbox" name="add_to_mail_list" value="ok">Send me Youbike updates and tips
+                        <label>
+                            <input type="checkbox" name="add_to_mail_list" value="ok">
+                            Send me Youbike updates and tips</label>
                     </div>
                     <input class="submit" type="submit" value="Create my Account">
                     <p class="form_footer">
@@ -51,11 +52,8 @@
                         Xiew our Privacy Policy.
                     </p>
                 </form>
-
-
-
-            </div> <!-- form -->
-        </div>  <!-- wrapper -->
+            </div>
+        </div>
 
 </body>
 </html>
